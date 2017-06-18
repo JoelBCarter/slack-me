@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Slack notification for completion of long-running commands",
   "main": "index.js",
+  "bin": {
+    "slack-me": "index.js"
+  },
   "scripts": {
     "test": "mocha"
   },

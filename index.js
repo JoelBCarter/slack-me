@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const Slack = require('node-slack'),
     slack = new Slack(process.env.SLACK_WEBHOOK_URL),
     stdin = process.stdin;
