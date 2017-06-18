@@ -4,7 +4,7 @@ const { expect } = require('chai'),
     sinon = require('sinon'),
     sut = path.join(__dirname, '..', 'index.js');
 
-describe('slack-it-to-me', function () {
+describe('slack-me', function () {
     let stub;
     beforeEach(() => {
         stub = sinon.stub();

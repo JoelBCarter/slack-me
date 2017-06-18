@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoelBCarter/slack-it-to-me.git"
+    "url": "git+https://github.com/JoelBCarter/slack-me.git"
   },
   "keywords": [
     "nodejs",
@@ -19,9 +19,9 @@
   "author": "Joel Carter",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JoelBCarter/slack-it-to-me/issues"
+    "url": "https://github.com/JoelBCarter/slack-me/issues"
   },
-  "homepage": "https://github.com/JoelBCarter/slack-it-to-me#readme",
+  "homepage": "https://github.com/JoelBCarter/slack-me#readme",
   "devDependencies": {
     "chai": "^4.0.2",
     "mocha": "^3.4.2",
