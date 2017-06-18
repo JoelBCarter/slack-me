@@ -3,6 +3,13 @@ const { expect } = require('chai'),
     sinon = require('sinon'),
     sut = require(path.join('..', 'index.js'));
 describe('slack-it-to-me', function () {
+    let stub;
+    beforeEach(() => {
+        stub = sinon.stub(require('node-slack'), 'send');
+    });
+    afterEach(() => {
+        stub.restore();
+    });
     describe('should post', function () {
         it('to the URL specified by the ENV VAR', function () {
             throw new Error('TODO: Write test.');
