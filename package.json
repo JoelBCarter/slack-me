@@ -1,0 +1,30 @@
+{
+  "name": "slack-me",
+  "version": "0.1.0",
+  "description": "Slack notification for completion of long-running commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelBCarter/slack-it-to-me.git"
+  },
+  "keywords": [
+    "nodejs",
+    "slack",
+    "notifications",
+    "command-line-tool"
+  ],
+  "author": "Joel Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoelBCarter/slack-it-to-me/issues"
+  },
+  "homepage": "https://github.com/JoelBCarter/slack-it-to-me#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.4"
+  }
+}
